@@ -9,8 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "gray-matter": "^4.0.3",
+    "mongodb": "^4.12.1",
     "next": "13.0.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.4",
+    "react-syntax-highlighter": "^15.5.0",
+    "sharp": "^0.31.2"
   }
 }
