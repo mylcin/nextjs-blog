@@ -22,8 +22,8 @@ function PostContent({ post }) {
             <Image
               src={`/images/posts/${post.slug}/${image.properties.src}`}
               alt={image.properties.alt}
-              width={600}
-              height={300}
+              sizes="100%"
+              fill
             />
           </div>
         );
